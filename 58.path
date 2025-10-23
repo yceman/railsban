@@ -1,0 +1,44 @@
+From 101640df76a79ad982c2430506e3c8b1bd577e76 Mon Sep 17 00:00:00 2001
+From: "dependabot[bot]" <49699333+dependabot[bot]@users.noreply.github.com>
+Date: Thu, 23 Oct 2025 20:20:04 +0000
+Subject: [PATCH] Bump kamal from 2.7.0 to 2.8.1
+
+Bumps [kamal](https://github.com/basecamp/kamal) from 2.7.0 to 2.8.1.
+- [Release notes](https://github.com/basecamp/kamal/releases)
+- [Commits](https://github.com/basecamp/kamal/compare/v2.7.0...v2.8.1)
+
+---
+updated-dependencies:
+- dependency-name: kamal
+  dependency-version: 2.8.1
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+---
+ Gemfile.lock | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Gemfile.lock b/Gemfile.lock
+index 5b01af7..2f8ada8 100644
+--- a/Gemfile.lock
++++ b/Gemfile.lock
+@@ -131,7 +131,7 @@ GEM
+       actionview (>= 7.0.0)
+       activesupport (>= 7.0.0)
+     json (2.15.1)
+-    kamal (2.7.0)
++    kamal (2.8.1)
+       activesupport (>= 7.0)
+       base64 (~> 0.2)
+       bcrypt_pbkdf (~> 1.0)
+@@ -178,7 +178,7 @@ GEM
+       racc (~> 1.4)
+     nokogiri (1.18.10-x86_64-linux-gnu)
+       racc (~> 1.4)
+-    ostruct (0.6.2)
++    ostruct (0.6.3)
+     parallel (1.26.3)
+     parser (3.3.7.3)
+       ast (~> 2.4.1)
