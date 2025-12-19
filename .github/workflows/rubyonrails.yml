@@ -4,6 +4,10 @@
 #
 # This workflow will install a prebuilt Ruby version, install dependencies, and
 # run tests and linters.
+# Source - https://stackoverflow.com/a
+# Posted by Skenvy
+# Retrieved 2025-12-19, License - CC BY-SA 4.0
+
 name: "Ruby on Rails CI"
 on:
   push:
