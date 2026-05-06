@@ -1,0 +1,17 @@
+diff --git a/Gemfile.lock b/Gemfile.lock
+index 7ad812b..18ee445 100644
+--- a/Gemfile.lock
++++ b/Gemfile.lock
+@@ -303,8 +303,8 @@ GEM
+       fugit (~> 1.11)
+       railties (>= 7.1)
+       thor (>= 1.3.1)
+-    sqlite3 (2.9.3-x64-mingw-ucrt)
+-    sqlite3 (2.9.3-x86_64-linux-gnu)
++    sqlite3 (2.9.4-x64-mingw-ucrt)
++    sqlite3 (2.9.4-x86_64-linux-gnu)
+     sshkit (1.25.0)
+       base64
+       logger
+
+Merge pull request #132 Bump sqlite3 from 2.9.3 to 2.9.4
