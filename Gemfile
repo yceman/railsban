@@ -49,6 +49,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # Audit dependencies for known vulnerabilities [https://github.com/rubysec/bundler-audit]
+  gem "bundler-audit", require: false
 end
 
 group :development do
